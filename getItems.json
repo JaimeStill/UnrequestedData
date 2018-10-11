@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "categoryId": 1,
+        "name": "Item A",
+        "category": {
+            "id": 1,
+            "name": "Category A",
+            "items": [
+                {
+                    "id": 2,
+                    "categoryId": 1,
+                    "name": "Item B"
+                },
+                {
+                    "id": 3,
+                    "categoryId": 1,
+                    "name": "Item C"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "Item B",
+        "category": {
+            "id": 1,
+            "name": "Category A",
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": 1,
+                    "name": "Item A"
+                },
+                {
+                    "id": 3,
+                    "categoryId": 1,
+                    "name": "Item C"
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "categoryId": 1,
+        "name": "Item C",
+        "category": {
+            "id": 1,
+            "name": "Category A",
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": 1,
+                    "name": "Item A"
+                },
+                {
+                    "id": 2,
+                    "categoryId": 1,
+                    "name": "Item B"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "categoryId": 2,
+        "name": "Item D",
+        "category": {
+            "id": 2,
+            "name": "Category B",
+            "items": [
+                {
+                    "id": 5,
+                    "categoryId": 2,
+                    "name": "Item E"
+                },
+                {
+                    "id": 6,
+                    "categoryId": 2,
+                    "name": "Item F"
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "categoryId": 2,
+        "name": "Item E",
+        "category": {
+            "id": 2,
+            "name": "Category B",
+            "items": [
+                {
+                    "id": 4,
+                    "categoryId": 2,
+                    "name": "Item D"
+                },
+                {
+                    "id": 6,
+                    "categoryId": 2,
+                    "name": "Item F"
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "categoryId": 2,
+        "name": "Item F",
+        "category": {
+            "id": 2,
+            "name": "Category B",
+            "items": [
+                {
+                    "id": 4,
+                    "categoryId": 2,
+                    "name": "Item D"
+                },
+                {
+                    "id": 5,
+                    "categoryId": 2,
+                    "name": "Item E"
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "categoryId": 3,
+        "name": "Item G",
+        "category": {
+            "id": 3,
+            "name": "Category C",
+            "items": [
+                {
+                    "id": 8,
+                    "categoryId": 3,
+                    "name": "Item H"
+                },
+                {
+                    "id": 9,
+                    "categoryId": 3,
+                    "name": "Item I"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "categoryId": 3,
+        "name": "Item H",
+        "category": {
+            "id": 3,
+            "name": "Category C",
+            "items": [
+                {
+                    "id": 7,
+                    "categoryId": 3,
+                    "name": "Item G"
+                },
+                {
+                    "id": 9,
+                    "categoryId": 3,
+                    "name": "Item I"
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "categoryId": 3,
+        "name": "Item I",
+        "category": {
+            "id": 3,
+            "name": "Category C",
+            "items": [
+                {
+                    "id": 7,
+                    "categoryId": 3,
+                    "name": "Item G"
+                },
+                {
+                    "id": 8,
+                    "categoryId": 3,
+                    "name": "Item H"
+                }
+            ]
+        }
+    }
+]
