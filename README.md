@@ -48,7 +48,7 @@ This means that by default, any data that was loaded by the query that ***COULD*
 
 As you will note, `ReferenceLoopHandling.Ignore` is working because it omits references to the base item in the `category.items` array. This behavior, however, is undesired because there is no way to prevent it from populating this data.
 
-The only work around I've been able to find is to use the following for large datasets that would cause performance issues on the client side:
+The work around I've been able to put together for now is to use the following for large datasets that would cause performance issues on the client side:
 
 ``` cs
 public static async Task<List<Item>> GetMinimalItems(this AppDbContext db)
