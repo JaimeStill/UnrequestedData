@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrequestedData.Web", "UnrequestedData.Web\UnrequestedData.Web.csproj", "{E72D2476-A09F-4E2F-AA08-12A3BCD58F97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrequestedData.Data", "UnrequestedData.Data\UnrequestedData.Data.csproj", "{BB39963D-D96A-4449-943E-88C4E9A6BB63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E72D2476-A09F-4E2F-AA08-12A3BCD58F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E72D2476-A09F-4E2F-AA08-12A3BCD58F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E72D2476-A09F-4E2F-AA08-12A3BCD58F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB39963D-D96A-4449-943E-88C4E9A6BB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB39963D-D96A-4449-943E-88C4E9A6BB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB39963D-D96A-4449-943E-88C4E9A6BB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB39963D-D96A-4449-943E-88C4E9A6BB63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

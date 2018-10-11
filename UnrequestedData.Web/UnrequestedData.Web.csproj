@@ -10,6 +10,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnrequestedData.Data\UnrequestedData.Data.csproj" />
   </ItemGroup>
 
 </Project>
