@@ -11,6 +11,8 @@ This repo demonstrates my concerns with Entity Framework Core adding data to nav
     * `/api/item/getMinimalItems`
 * EF Queries are contained in [**ItemExtensions.cs**](./UnrequestedData.Web/Extensions/ItemExtensions.cs)
 
+## Issue
+
 When querying data from Entity Framework, the expected behavior when eager loading would be that only the data that was requested will be present in the data graph.
 
 The following classes represent the entity model for this demonstration:
